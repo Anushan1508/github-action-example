@@ -12,7 +12,7 @@ public class CiCdApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Hello World! Main 245";
+        return "Hello World! Docker";
     }
 
     public static void main(String[] args) {
