@@ -35,7 +35,7 @@ jobs:
         image: anushan1508/springboot-github-action
         tags: latest
         repository: docker.io
-        dockerfile: Dockerfile
+        dockerfile: Dockerfile.ci
         username: ${{ secrets.REGISTRY_USER }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
         cache-from: type=gha
